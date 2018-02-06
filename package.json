@@ -1,0 +1,14 @@
+{
+  "name": "language-todo-fiction",
+  "version": "0.0.0",
+  "description": "Story TODO highlighting support for Atom.",
+  "keywords": [
+    "todo", "fiction"
+  ],
+  "repository": "https://github.com/davidlday/atom-language-todo-fiction",
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  }
+}

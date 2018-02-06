@@ -1,0 +1,16 @@
+'scopeName': 'text.todo_fiction'
+'name': 'TODO_FICTION'
+'injectionSelector': 'comment, text.markdown'
+'patterns': [
+  {
+    'match': '(?<!\\w)@?(SYNOPSIS|NOTE|INFO|IDEA|REMOVE|REVIEW|TO DO|REWRITE|SETUP|PAYOFF|SCENE)\\b'
+    'name': 'storage.type.class.${1:/downcase}'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'markup.underline.link.radar'
+    'match': '<(ra?dar:/(?:/problems?|)/(?:[&0-9]+))>'
+    'name': 'storage.type.class.radar'
+  }
+]
