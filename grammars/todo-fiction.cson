@@ -1,9 +1,10 @@
+'name': 'Story TODO Highlighting'
 'scopeName': 'text.todo_fiction'
 'name': 'TODO_FICTION'
 'injectionSelector': 'comment, text.markdown'
 'patterns': [
   {
-    'match': '(?<!\\w)@?(SYNOPSIS|NOTE|INFO|IDEA|REMOVE|REVIEW|TO DO|REWRITE|SETUP|PAYOFF|SCENE)\\b'
+    'match': '(?<!\\w)@?(SYNOPSIS|NOTE|INFO|IDEA|REMOVE|REVIEW|TO DO|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL)\\b'
     'name': 'storage.type.class.${1:/downcase}'
   }
   {
