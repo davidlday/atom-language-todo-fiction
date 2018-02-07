@@ -1,0 +1,25 @@
+'.source.gfm':
+  'Setup Beat':
+    'prefix': 'setup'
+    'body': '<!-- SETUP: $1 -->'
+  'Payoff Beat':
+    'prefix': 'payoff'
+    'body': '<!-- PAYOFF: $1 -->'
+  'Scene':
+    'prefix': 'scene'
+    'body': '<!-- SCENE: $1 -->'
+  'Sequel':
+    'prefix': 'sequel'
+    'body': '<!-- SEQUEL: $1 -->'
+  'Story Idea':
+    'prefix': 'idea'
+    'body': '<!-- IDEA: $1 -->'
+  'Synopsis':
+    'prefix': 'synopsis'
+    'body': '<!-- SYNOPSIS: $1 -->'
+  'Note':
+    'prefix': 'note'
+    'body': '<!-- SYNOPSIS: $1 -->'
+  'Rewrite Notes':
+    'prefix': 'rewrite'
+    'body': '<!-- SYNOPSIS: $1 -->'
