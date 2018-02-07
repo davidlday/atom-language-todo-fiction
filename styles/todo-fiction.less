@@ -6,19 +6,19 @@
 
 atom-text-editor:not(.mini) {
   .syntax--storage {
-    // SYNOPSIS|NOTE|INFO|IDEA|REVIEW|TODO|REMOVE|WARNING|WARN|REWRITE|SETUP|PAYOFF|SCENE|ERROR
 
     &.syntax--synopsis,
     &.syntax--info,
     &.syntax--idea,
     &.syntax--note,
-    &.syntax--scene {
-      color: #66d9ef;
+    &.syntax--scene,
+    &.syntax--sequel {
+      color: @text-color-info;
       font-weight: bold;
     }
 
     &.syntax--setup {
-      color: #ae81ff;
+      color: @text-color-success;
       font-weight: bold;
     }
 
@@ -29,13 +29,13 @@ atom-text-editor:not(.mini) {
     &.syntax--task,
     &.syntax--warning,
     &.syntax--warn {
-      color: #ffd569;
+      color: @text-color-warning;
       font-weight: bold;
     }
 
     &.syntax--rewrite,
     &.syntax--error {
-      color: #f92672;
+      color: @text-color-error;
       font-weight: bold;
     }
   }
