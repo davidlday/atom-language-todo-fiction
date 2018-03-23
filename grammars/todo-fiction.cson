@@ -3,7 +3,7 @@
 'injectionSelector': 'comment, text.markdown'
 'patterns': [
   {
-    'match': '(?<!\\w)@?(SYNOPSIS|NOTE|IDEA|REMOVE|REVIEW|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL)\\b'
+    'match': '(?<!\\w)@?(SYNOPSIS|NOTE|IDEA|REMOVE|REVIEW|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL|HOOK)\\b'
     'name': 'storage.type.class.${1:/downcase}'
   }
   {

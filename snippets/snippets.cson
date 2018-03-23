@@ -19,7 +19,10 @@
     'body': '<!-- SYNOPSIS: $1 -->'
   'Note':
     'prefix': 'note'
-    'body': '<!-- SYNOPSIS: $1 -->'
-  'Rewrite Notes':
+    'body': '<!-- NOTE: $1 -->'
+  'Rewrite':
     'prefix': 'rewrite'
-    'body': '<!-- SYNOPSIS: $1 -->'
+    'body': '<!-- REWRITE: $1 -->'
+  'Hook':
+    'prefix': 'hook'
+    'body': '<!-- HOOK: $1 -->'
