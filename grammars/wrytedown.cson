@@ -1,5 +1,5 @@
-'name': 'Story TODO Highlighting'
-'scopeName': 'text.todo_fiction'
+'name': 'Wrytedown'
+'scopeName': 'text.wrytedown'
 'injectionSelector': 'comment, text.markdown'
 'patterns': [
   {
