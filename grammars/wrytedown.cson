@@ -1,0 +1,16 @@
+'name': 'Wrytedown'
+'scopeName': 'text.wrytedown'
+'injectionSelector': 'comment, text.markdown'
+'patterns': [
+  {
+    'match': '(?<!\\w)@?(NOTE|IDEA|REMOVE|REVIEW|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL|HOOK|setting|date|goal|conflict|disaster|reaction|dilemma|decision|synopsis)\\b'
+    'name': 'storage.type.class.${1:/downcase}'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'markup.underline.link.radar'
+    'match': '<(ra?dar:/(?:/problems?|)/(?:[&0-9]+))>'
+    'name': 'storage.type.class.radar'
+  }
+]

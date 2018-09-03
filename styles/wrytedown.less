@@ -1,0 +1,42 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+atom-text-editor:not(.mini) {
+  .syntax--storage {
+
+    &.syntax--info,
+    &.syntax--idea,
+    &.syntax--note,
+    &.syntax--scene,
+    &.syntax--sequel {
+      color: @text-color-info;
+      text-decoration: underline;
+    }
+
+    &.syntax--setup,
+    &.syntax--hook {
+      color: @text-color-success;
+      text-decoration: underline;
+    }
+
+    &.syntax--payoff,
+    &.syntax--review,
+    &.syntax--remove,
+    &.syntax--todo,
+    &.syntax--task,
+    &.syntax--warning,
+    &.syntax--warn {
+      color: @text-color-warning;
+      text-decoration: underline;
+    }
+
+    &.syntax--rewrite,
+    &.syntax--error {
+      color: @text-color-error;
+      text-decoration: underline;
+    }
+  }
+}

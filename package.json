@@ -1,0 +1,20 @@
+{
+  "name": "wrytedown",
+  "version": "0.0.0",
+  "description": "An experimental plugin for writing fiction using YAML, Markdwon, and related tools. Wrytedown is a structure and conventions meant to be usable across platforms and editors in the spirit of sustainable authorship.",
+  "keywords": [
+    "wrytedown", "fiction", "markdown", "yaml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidlday/atom-wrytedown"
+  },
+  "bugs": {
+    "url": "https://github.com/davidlday/atom-wrytedown/issues"
+  },
+  "homepage": "https://github.com/davidlday/atom-wrytedown",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
