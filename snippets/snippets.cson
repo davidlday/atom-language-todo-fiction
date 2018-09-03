@@ -1,28 +1,50 @@
 '.source.gfm':
+# Setup - introduce new plot device
   'Setup Beat':
-    'prefix': 'setup'
+    'prefix': 'SETUP'
     'body': '<!-- SETUP: $1 -->'
+# Payoff - create closure on a plot device
   'Payoff Beat':
-    'prefix': 'payoff'
+    'prefix': 'PAYOFF'
     'body': '<!-- PAYOFF: $1 -->'
+# Scene - unified by time
   'Scene':
-    'prefix': 'scene'
-    'body': '<!-- SCENE: $1 -->'
+    'prefix': 'SCENE'
+    'body': """
+<!-- SCENE: $1
+setting: $2
+date: $3
+goal: $4
+conflict: $5
+disaster: $6
+synopsis: $7
+-->
+"""
+# Sequel - unified by topic
   'Sequel':
-    'prefix': 'sequel'
-    'body': '<!-- SEQUEL: $1 -->'
+    'prefix': 'SEQUEL'
+    'body': """
+<!-- SEQUEL: $1
+setting: $2
+date: $3
+reaction: $4
+dilemma: $5
+decision: $6
+synopsis: $7
+-->
+"""
   'Story Idea':
-    'prefix': 'idea'
+    'prefix': 'IDEA'
     'body': '<!-- IDEA: $1 -->'
   'Synopsis':
-    'prefix': 'synopsis'
+    'prefix': 'SYNOPSIS'
     'body': '<!-- SYNOPSIS: $1 -->'
   'Note':
-    'prefix': 'note'
+    'prefix': 'NOTE'
     'body': '<!-- NOTE: $1 -->'
   'Rewrite':
-    'prefix': 'rewrite'
+    'prefix': 'REWRITE'
     'body': '<!-- REWRITE: $1 -->'
   'Hook':
-    'prefix': 'hook'
+    'prefix': 'HOOK'
     'body': '<!-- HOOK: $1 -->'
