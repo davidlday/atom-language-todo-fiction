@@ -1,10 +1,10 @@
 '.source.gfm':
 # Setup - introduce new plot device
-  'Setup Beat':
+  'Setup':
     'prefix': 'SETUP'
     'body': '<!-- SETUP: $1 -->'
 # Payoff - create closure on a plot device
-  'Payoff Beat':
+  'Payoff':
     'prefix': 'PAYOFF'
     'body': '<!-- PAYOFF: $1 -->'
 # Scene - unified by time
