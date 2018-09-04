@@ -27,7 +27,7 @@ writing. I've selected a few here that I feel apply equally well to
 writing fiction in YAML/Markdown using Atom.
 
 * [advanced-open-file](https://atom.io/packages/advanced-open-file) to
-  quickly create new files
+  quickly create new files.
 * [document-outline](https://atom.io/packages/document-outline) to
   display a hierarchical, interactive outline tree view for document
   markup.
@@ -35,9 +35,12 @@ writing fiction in YAML/Markdown using Atom.
   consistent Markdown / YAML styles across editors.
 * [linter-languagetool](https://atom.io/packages/linter-languagetool) for
   spell & grammar checking using LanguageTool (you'll need to install
-  LanguageTool separately)
+  LanguageTool separately).
 * [typewriter](https://atom.io/packages/typewriter) to center the
-  text in the editor
+  text in the editor.
 * [wordcount](https://atom.io/packages/wordcount) because you just
-  need this as a writer
-* [zen](https://atom.io/packages/Zen) for distraction free writing
+  need this as a writer.
+* [wrap-with-anything](https://atom.io/packages/wrap-with-anything) to
+  text selections instead of replacing them when certain characters are
+  typed.
+* [zen](https://atom.io/packages/Zen) for distraction free writing.
