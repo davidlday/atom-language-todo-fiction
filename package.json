@@ -1,6 +1,6 @@
 {
   "name": "atom-wrytedown",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "An experimental plugin for writing fiction using YAML, Markdown, and related tools. Wrytedown is a structure and conventions meant to be usable across platforms and editors in the spirit of sustainable authorship.",
   "keywords": [
     "wrytedown",
