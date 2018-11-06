@@ -17,7 +17,8 @@ date: $3
 goal: $4
 conflict: $5
 disaster: $6
-synopsis: $7
+synopsis: >-
+    $7
 -->
 """
 # Sequel - unified by topic
@@ -30,7 +31,8 @@ date: $3
 reaction: $4
 dilemma: $5
 decision: $6
-synopsis: $7
+synopsis: >-
+    $7
 -->
 """
   'Story Idea':
@@ -42,6 +44,12 @@ synopsis: $7
   'Note':
     'prefix': 'NOTE'
     'body': '<!-- NOTE: $1 -->'
+  'Remove':
+    'prefix': 'REMOVE'
+    'body': '<!-- REMOVE: $1 -->'
+  'Review':
+    'prefix': 'REVIEW'
+    'body': '<!-- REVIEW: $1 -->'
   'Rewrite':
     'prefix': 'REWRITE'
     'body': '<!-- REWRITE: $1 -->'
