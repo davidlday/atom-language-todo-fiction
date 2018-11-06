@@ -15,6 +15,8 @@ platforms and editors in the spirit of [Sustainable Authorship](https://programm
   * Synopsis
   * Note
   * Rewrite
+  * Remove
+  * Review
   * Hook
 * Highlighting for the above snippets
 
