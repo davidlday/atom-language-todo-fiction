@@ -3,7 +3,7 @@
 'injectionSelector': 'comment, text.markdown'
 'patterns': [
   {
-    'match': '(?<!\\w)@?(NOTE|IDEA|REMOVE|REVIEW|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL|HOOK|setting|date|goal|conflict|disaster|reaction|dilemma|decision|synopsis)\\b'
+    'match': '(?<!\\w)@?(NOTE|IDEA|REMOVE|REVIEW|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL|HOOK|setting|date|goal|conflict|disaster|reaction|dilemma|decision|synopsis|pov):'
     'name': 'storage.type.class.${1:/downcase}'
   }
   {
