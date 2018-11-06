@@ -14,11 +14,12 @@
 <!-- SCENE: $1
 setting: $2
 date: $3
-goal: $4
-conflict: $5
-disaster: $6
+pov: $4
+goal: $5
+conflict: $6
+disaster: $7
 synopsis: >-
-    $7
+    $8
 -->
 """
 # Sequel - unified by topic
@@ -28,11 +29,12 @@ synopsis: >-
 <!-- SEQUEL: $1
 setting: $2
 date: $3
-reaction: $4
-dilemma: $5
-decision: $6
+pov: $4
+reaction: $5
+dilemma: $6
+decision: $7
 synopsis: >-
-    $7
+    $8
 -->
 """
   'Story Idea':
