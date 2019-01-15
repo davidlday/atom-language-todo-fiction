@@ -18,8 +18,6 @@ pov: $4
 goal: $5
 conflict: $6
 disaster: $7
-synopsis: >-
-    $8
 -->
 """
 # Sequel - unified by topic
@@ -33,8 +31,6 @@ pov: $4
 reaction: $5
 dilemma: $6
 decision: $7
-synopsis: >-
-    $8
 -->
 """
   'Story Idea':
