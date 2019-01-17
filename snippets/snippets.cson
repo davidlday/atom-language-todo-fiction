@@ -1,4 +1,17 @@
 '.source.gfm':
+  # Index CARD for OUTLINEs (Beat Sheet)
+  'Index Card':
+    'prefix': 'CARD'
+    'body': """
+### CARD: $1
+
+* POV Character: $2
+* POV Goal: $3
+* Supporting Characters: $4
+* Emotional Change: $5
+* Conflict: $6
+
+"""
 # Setup - introduce new plot device
   'Setup':
     'prefix': 'SETUP'
