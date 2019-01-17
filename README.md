@@ -9,6 +9,7 @@ platforms and editors in the spirit of [Sustainable Authorship](https://programm
 * Snippets for adding TODO-style comments
   * Setup
   * Payoff
+  * Card (as defined by Blake Snyder for Beat Sheets)
   * Scene (as defined by Dwight Swain)
   * Sequel (as defined by Dwight Swain)
   * Idea
