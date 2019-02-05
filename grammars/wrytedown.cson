@@ -1,10 +1,14 @@
 'name': 'Wrytedown'
-'scopeName': 'text.wrytedown'
-'injectionSelector': 'comment, text.markdown'
+'scopeName': 'source.gfm.wrytedown'
+fileTypes: [
+  'md'
+  'markdown'
+  'wd'
+  'wrytedown'
+]
 'patterns': [
   {
-    'match': '(?<!\\w)@?(NOTE|IDEA|REMOVE|REVIEW|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL|HOOK|setting|date|goal|conflict|disaster|reaction|dilemma|decision|synopsis|pov):'
-    'name': 'storage.type.class.${1:/downcase}'
+    include: 'source.gfm'
   }
   {
     'captures':
@@ -14,3 +18,19 @@
     'name': 'storage.type.class.radar'
   }
 ]
+injections:
+  'L:comment.block.gfm':
+    patterns: [
+      {
+        'match': '(?<!\\w)@?(NOTE|IDEA|REMOVE|REVIEW|REWRITE|SETUP|PAYOFF|SCENE|SEQUEL|HOOK|setting|date|goal|conflict|disaster|reaction|dilemma|decision|synopsis|pov):'
+        'name': 'storage.type.class.${1:/downcase}'
+      }
+    ]
+injections:
+  'L:source.gfm.wrytedown':
+    patterns: [
+      {
+        match: '["“](?:.(?!["“]))*.?["”\n]'
+        name: 'source.gfm.wrytedown.dialogue'
+      }
+    ]
