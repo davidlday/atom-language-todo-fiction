@@ -3,67 +3,76 @@
   'Index Card':
     'prefix': 'CARD'
     'body': """
-### CARD: $1
+### CARD: $0
 
-* POV Character: $2
-* POV Goal: $3
-* Supporting Characters: $4
-* Emotional Change: $5
-* Conflict: $6
+* POV Character: $1
+* POV Goal: $2
+* Supporting Characters: $3
+* Emotional Change: $4
+* Conflict: $5
 
 """
 # Setup - introduce new plot device
   'Setup':
     'prefix': 'SETUP'
-    'body': '<!-- SETUP: $1 -->'
+    'body': '<!-- SETUP: $0 -->'
 # Payoff - create closure on a plot device
   'Payoff':
     'prefix': 'PAYOFF'
-    'body': '<!-- PAYOFF: $1 -->'
+    'body': '<!-- PAYOFF: $0 -->'
 # Scene - unified by time
   'Scene':
     'prefix': 'SCENE'
     'body': """
-<!-- SCENE: $1
-setting: $2
-date: $3
-pov: $4
-goal: $5
-conflict: $6
-disaster: $7
+<!-- SCENE: $0
+setting: $1
+date: $2
+pov: $3
+goal: $4
+conflict: $5
+disaster: $6
 -->
 """
 # Sequel - unified by topic
   'Sequel':
     'prefix': 'SEQUEL'
     'body': """
-<!-- SEQUEL: $1
-setting: $2
-date: $3
-pov: $4
-reaction: $5
-dilemma: $6
-decision: $7
+<!-- SEQUEL: $0
+setting: $1
+date: $2
+pov: $3
+reaction: $4
+dilemma: $5
+decision: $6
 -->
 """
   'Story Idea':
     'prefix': 'IDEA'
-    'body': '<!-- IDEA: $1 -->'
+    'body': '<!-- IDEA: $0 -->'
   'Synopsis':
     'prefix': 'SYNOPSIS'
-    'body': '<!-- SYNOPSIS: $1 -->'
+    'body': '<!-- SYNOPSIS: $0 -->'
   'Note':
     'prefix': 'NOTE'
-    'body': '<!-- NOTE: $1 -->'
+    'body': '<!-- NOTE: $0 -->'
   'Remove':
     'prefix': 'REMOVE'
-    'body': '<!-- REMOVE: $1 -->'
+    'body': '<!-- REMOVE: $0 -->'
   'Review':
     'prefix': 'REVIEW'
-    'body': '<!-- REVIEW: $1 -->'
+    'body': '<!-- REVIEW: $0 -->'
   'Rewrite':
     'prefix': 'REWRITE'
-    'body': '<!-- REWRITE: $1 -->'
+    'body': '<!-- REWRITE: $0 -->'
   'Hook':
     'prefix': 'HOOK'
-    'body': '<!-- HOOK: $1 -->'
+    'body': '<!-- HOOK: $0 -->'
+  'todo':
+    'prefix': 'TODO',
+    'body': '<!-- TODO: $0 -->'
+  'fixme':
+    'prefix': 'FIXME',
+    'body': '<!-- FIXME: $0 -->'
+  'question':
+    'prefix': 'question'
+    'body': '<!-- QUESTION: $0 -->'
